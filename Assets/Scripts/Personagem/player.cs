@@ -11,6 +11,8 @@ public class player : MonoBehaviour
     private Rigidbody2D rig;
     private Animator anim;
 
+    public bool isDead;
+
 
     void Start()
     {
@@ -28,25 +30,29 @@ public class player : MonoBehaviour
 
     void Move()
     {
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
-        transform.position += movement * Time.deltaTime * Speed;
-
-        if(Input.GetAxis("Horizontal") > 0f)
+        if(!isDead)
         {
-            anim.SetBool("walk", true);
-            transform.eulerAngles = new Vector3(0f, 0f, 0f);
-        }
+            Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
+            transform.position += movement * Time.deltaTime * Speed;
 
-        if(Input.GetAxis("Horizontal") < 0f)
-        {
-            anim.SetBool("walk", true);
-            transform.eulerAngles = new Vector3(0f, 180f, 0f);
-        }
+            if(Input.GetAxis("Horizontal") > 0f)
+            {
+                anim.SetBool("walk", true);
+                transform.eulerAngles = new Vector3(0f, 0f, 0f);
+            }
 
-        if(Input.GetAxis("Horizontal") == 0f)
-        {
-            anim.SetBool("walk", false);
+            if(Input.GetAxis("Horizontal") < 0f)
+            {
+                anim.SetBool("walk", true);
+                transform.eulerAngles = new Vector3(0f, 180f, 0f);
+            }
+
+            if(Input.GetAxis("Horizontal") == 0f)
+            {
+                anim.SetBool("walk", false);
+            }
         }
+        
         
     }
     void Jump()
@@ -76,6 +82,23 @@ public class player : MonoBehaviour
         {
             isJumping = false;
         }
+
+        if(collision.gameObject.tag == "Espinho")
+        {
+            if (!isDead)
+            {
+                isDead = true;
+                anim.SetTrigger("dead");
+                StartCoroutine(ShowGameOverAfterDeath());
+            }
+        }
+    }
+
+    IEnumerator ShowGameOverAfterDeath()
+    {
+        yield return new WaitForSeconds(2.5f); // Wait for the death animation to finish
+        GameController.instance.ShowGameOver();
+        Destroy(this.gameObject); // Destroy the player after the game over screen is shown
     }
 
     void OnCollisionExit2D(Collision2D collision) 
