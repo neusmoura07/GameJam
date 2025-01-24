@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class player : MonoBehaviour
-{
+    {
     public float Speed;
     public float JumpForce;
 
