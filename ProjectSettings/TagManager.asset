@@ -10,6 +10,7 @@ TagManager:
   - Fan
   - Enemy
   - Vida
+  - Bala
   layers:
   - Default
   - TransparentFX

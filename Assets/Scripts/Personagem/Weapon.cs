@@ -1,41 +1,52 @@
 using UnityEngine;
+using UnityEngine.UI; // Necessário para usar UI
+using System.Collections;
 
 public class Weapon : MonoBehaviour
 {
     [SerializeField] private GameObject baseProjectile;
 
-    [Space]
-
+    [Header("Charge Settings")]
     [SerializeField] private bool hasCharge;
     [SerializeField] private GameObject chargedProjectile;
-    [SerializeField] private float timeToCharge;
+    [SerializeField] private float timeToCharge = 1f;
     [SerializeField] private ParticleSystem chargeParticle;
 
+    [Header("Cooldown Settings")]
+    [SerializeField] private float burstCooldown = 0.8f;
+    [SerializeField] private float chargedCooldown = 2f;
+
+    [Header("Burst Settings")]
+    [SerializeField] private int burstCount = 3;
+    [SerializeField] private float burstDelay = 0.1f;
+
+    [Header("UI Settings")]
+    [SerializeField] private Slider burstCooldownSlider; // Referência ao slider da rajada
+    [SerializeField] private Slider chargedCooldownSlider; // Referência ao slider do especial
+
+    private float burstCooldownTimer = 0f; // Temporizador da rajada
+    private float chargedCooldownTimer = 0f; // Temporizador do especial
     private float chargeTime;
 
-
-
-    void Start()
-    {
-    }
+    private bool isFiringBurst = false;
+    private bool isBurstOnCooldown = false;
+    private bool isChargedOnCooldown = false;
 
     void Update()
     {
-        
-        // Verifica se o player não está morto antes de atirar
         if (!player.Instance.isDead)
         {
             HandleShooting();
         }
-        
-        
+
+        UpdateCooldownUI();
     }
 
     private void HandleShooting()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !isBurstOnCooldown && !isFiringBurst)
         {
-            Fire(baseProjectile);
+            StartCoroutine(FireBurst());
         }
 
         if (!hasCharge) return;
@@ -45,16 +56,17 @@ public class Weapon : MonoBehaviour
             chargeTime += Time.deltaTime;
         }
 
-        if (chargeTime >= timeToCharge)
+        if (chargeTime >= timeToCharge && !chargeParticle.isPlaying)
         {
-            if (!chargeParticle.isPlaying) chargeParticle.Play();
+            chargeParticle.Play();
         }
 
-        if(Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0))
         {
-            if (chargeTime >= timeToCharge)
+            if (chargeTime >= timeToCharge && !isChargedOnCooldown)
             {
                 Fire(chargedProjectile);
+                StartCoroutine(StartCooldown(chargedCooldown, isCharged: true));
             }
 
             chargeTime = 0f;
@@ -62,18 +74,75 @@ public class Weapon : MonoBehaviour
         }
     }
 
+    private IEnumerator FireBurst()
+    {
+        isFiringBurst = true;
+
+        for (int i = 0; i < burstCount; i++)
+        {
+            Fire(baseProjectile);
+            yield return new WaitForSeconds(burstDelay);
+        }
+
+        isFiringBurst = false;
+
+        StartCoroutine(StartCooldown(burstCooldown, isCharged: false));
+    }
+
+    private IEnumerator StartCooldown(float cooldownTime, bool isCharged)
+    {
+        if (isCharged)
+        {
+            isChargedOnCooldown = true;
+            chargedCooldownTimer = cooldownTime;
+        }
+        else
+        {
+            isBurstOnCooldown = true;
+            burstCooldownTimer = cooldownTime;
+        }
+
+        while (cooldownTime > 0f)
+        {
+            cooldownTime -= Time.deltaTime;
+
+            if (isCharged)
+                chargedCooldownTimer = cooldownTime;
+            else
+                burstCooldownTimer = cooldownTime;
+
+            yield return null;
+        }
+
+        if (isCharged)
+        {
+            isChargedOnCooldown = false;
+        }
+        else
+        {
+            isBurstOnCooldown = false;
+        }
+    }
+
+    private void UpdateCooldownUI()
+    {
+        if (burstCooldownSlider != null)
+        {
+            burstCooldownSlider.value = Mathf.Max(0, burstCooldown - burstCooldownTimer);
+            burstCooldownSlider.maxValue = burstCooldown;
+        }
+
+        if (chargedCooldownSlider != null)
+        {
+            chargedCooldownSlider.value = Mathf.Max(0, chargedCooldown - chargedCooldownTimer);
+            chargedCooldownSlider.maxValue = chargedCooldown;
+        }
+    }
+
     private void Fire(GameObject projectile)
     {
-        // Instantiate o projetil
         var newProjectile = Instantiate(projectile, transform.position, transform.rotation);
-
-        // Obtém a direção do player (como um int)
         int playerDirection = (int)Mathf.Sign(player.Instance.direction.x);
-
-        // Envia a direção como inteiro para o projetil
         newProjectile.GetComponent<Projectile>().SetDirection(playerDirection);
-
-        // Animação de tiro
-        // PlayerSc
     }
 }

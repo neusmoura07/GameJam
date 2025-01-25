@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 4538134412557616668}
   - component: {fileID: 3163145307125420574}
   - component: {fileID: 4593648254028956338}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inimigo-vigia
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -209,6 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 516d7449477db58469c8c82f8681d790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 10
 --- !u!50 &4593648254028956338
 Rigidbody2D:
   serializedVersion: 5
@@ -246,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2668453586003661338}
   - component: {fileID: 7142823321848550825}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: a
   m_TagString: Untagged
   m_Icon: {fileID: 0}

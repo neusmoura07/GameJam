@@ -4,7 +4,7 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] private float lifeTime;
     [SerializeField] private float projectileSpeed;
-    [SerializeField] private float projectileDamage;
+    [SerializeField] private int projectileDamage;
 
     private Rigidbody2D projectileRb;
     private int direction;
@@ -29,5 +29,25 @@ public class Projectile : MonoBehaviour
         hasDirection = true;
         direction = dir;
     }
-    
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Verifica se colidiu com um inimigo
+        var enemy = collision.collider.GetComponent<PatrulEnemyController>();
+        var pursuingEnemy = collision.collider.GetComponent<PursuingPlayerController>();
+
+        if (enemy != null)
+        {
+            // Aplica dano ao inimigo patrulha
+            enemy.TakeDamage(projectileDamage);
+            Destroy(gameObject); // Destroi o projétil após o impacto
+        }
+        else if (pursuingEnemy != null)
+        {
+            // Aplica dano ao inimigo perseguidor
+            pursuingEnemy.TakeDamage(projectileDamage);
+            Destroy(gameObject); // Destroi o projétil após o impacto
+        }
+    }
+
 }

@@ -54,6 +54,7 @@ public class LifeController : MonoBehaviour
     {
         if(collision.tag == "Vida")
         {
+            Destroy(collision.gameObject);
             AddVida();
         }
         

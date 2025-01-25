@@ -6,52 +6,70 @@ public class PatrulEnemyController : MonoBehaviour
     private float speed = 4;
 
     private PursuingPlayerController pursuingPlayerController;
+
+    public int maxHealth = 3; // Vida máxima do inimigo
+    private int currentHealth;
+
     void Start()
     {
+        currentHealth = maxHealth; // Inicializa a vida atual
         pursuingPlayerController = GetComponent<PursuingPlayerController>();
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (pursuingPlayerController != null)
         {
             pursuingPlayerController.DetectionPlayer();
         }
-        
-        move();
+
+        Move();
     }
 
-    private void OnTriggerExit2D(Collider2D collision) 
+    private void OnTriggerExit2D(Collider2D collision)
     {
         speed *= -1;
-        if(pursuingPlayerController != null)
+        if (pursuingPlayerController != null)
         {
-           pursuingPlayerController.Flip(); 
+            pursuingPlayerController.Flip();
         }
         else
         {
-            flip();
+            Flip();
         }
-        
-        
     }
 
-    private void flip()
+    private void Flip()
     {
         Vector3 currentScale = gameObject.transform.localScale;
         currentScale.x *= -1;
         gameObject.transform.localScale = currentScale;
     }
 
-    private void move()
+    private void Move()
     {
         rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
-        if(pursuingPlayerController != null)
+        if (pursuingPlayerController != null)
         {
-           pursuingPlayerController.PositionCorrection(); 
+            pursuingPlayerController.PositionCorrection();
         }
-        
+    }
+
+    // Sistema de vida para o inimigo
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        // Desativa ou destrói o inimigo
+        gameObject.SetActive(false); // Opcional: Substituir por Destroy(gameObject);
     }
 }
