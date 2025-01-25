@@ -5,6 +5,11 @@ public class coleta : MonoBehaviour
     private SpriteRenderer sr;
     private CircleCollider2D circle;
     public GameObject collected;
+
+    public int score;
+
+    
+    
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -20,7 +25,10 @@ public class coleta : MonoBehaviour
             circle.enabled = false;
             collected.SetActive(true);
 
-            Destroy(gameObject, 0.25f);
+            ScoreControl.instance.totalScore += score;
+            ScoreControl.instance.UpdateScoreText();
+
+            Destroy(gameObject, 0.35f);
         }
     }
 }
