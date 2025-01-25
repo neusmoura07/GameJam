@@ -9,9 +9,13 @@ public class PursuingPlayerController : MonoBehaviour
     private bool facingRight = true;
     private PatrulEnemyController patrulEnemyController;
 
+    public int maxHealth = 5;
+    private int currentHealth;
+
 
     void Start()
     {
+        currentHealth = maxHealth;
         patrulEnemyController = GetComponent<PatrulEnemyController>();
         rb = GetComponent<Rigidbody2D>();
         transformPlayer = GameObject.FindWithTag("Personagem").transform;
@@ -21,6 +25,15 @@ public class PursuingPlayerController : MonoBehaviour
     void Update()
     {
         DetectionPlayer();
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        if(currentHealth <= 0)
+        {
+            Die();
+        }
     }
 
     public void DetectionPlayer()
@@ -71,5 +84,10 @@ public class PursuingPlayerController : MonoBehaviour
      {
         Gizmos.color = Color.yellow;
         Gizmos.DrawSphere(transform.position, detectionRadius);
+    }
+
+    private void Die()
+    {
+        gameObject.SetActive(false);
     }
 }

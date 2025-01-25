@@ -2,7 +2,9 @@ using UnityEngine;
 using System.Collections;
 
 public class player : MonoBehaviour
-    {
+{
+    public static player Instance { get; private set; } // Singleton
+    public Vector2 direction { get; private set; } // Direção do player
     public float Speed;
     public float JumpForce;
 
@@ -15,51 +17,59 @@ public class player : MonoBehaviour
 
     bool isBlowing;
 
-    public int maxHealth = 120; // Vida máxima do personagem
-    public int currentHealth;  // Vida atual do personagem
+    public int maxHealth = 120;
+    public int currentHealth;
 
+    public GameObject balaProjetil;
+    public Transform arma;
+    private bool tiro;
+    public float forcaDoTiro;
+
+    void Awake()
+    {
+        // Implementação do Singleton
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject); // Garante que apenas uma instância exista
+            return;
+        }
+        Instance = this;
+    }
 
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        currentHealth = maxHealth; // Inicializa a vida atual com a vida máxima
+        direction = Vector2.right; // Direção inicial
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Move(); 
-        Jump();
-        Attack();
+        if(!isDead)
+        {
+            Move();
+            Jump();
+            Attack();
+        }
+        
+        
     }
 
     void Move()
     {
-        if(!isDead)
+        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
+        transform.position += movement * Time.deltaTime * Speed;
+
+        if (Input.GetAxis("Horizontal") > 0f)
         {
-            Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
-            transform.position += movement * Time.deltaTime * Speed;
-
-            if(Input.GetAxis("Horizontal") > 0f)
-            {
-                anim.SetBool("walk", true);
-                transform.eulerAngles = new Vector3(0f, 0f, 0f);
-            }
-
-            if(Input.GetAxis("Horizontal") < 0f)
-            {
-                anim.SetBool("walk", true);
-                transform.eulerAngles = new Vector3(0f, 180f, 0f);
-            }
-
-            if(Input.GetAxis("Horizontal") == 0f)
-            {
-                anim.SetBool("walk", false);
-            }
+            transform.eulerAngles = new Vector3(0f, 0f, 0f);
+            direction = Vector2.right; // Direção para a direita
         }
-        
-        
+        else if (Input.GetAxis("Horizontal") < 0f)
+        {
+            transform.eulerAngles = new Vector3(0f, 180f, 0f);
+            direction = Vector2.left; // Direção para a esquerda
+        }
     }
     void Jump()
     {
