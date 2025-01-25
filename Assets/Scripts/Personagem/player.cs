@@ -13,11 +13,17 @@ public class player : MonoBehaviour
 
     public bool isDead;
 
+    bool isBlowing;
+
+    public int maxHealth = 120; // Vida máxima do personagem
+    public int currentHealth;  // Vida atual do personagem
+
 
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        currentHealth = maxHealth; // Inicializa a vida atual com a vida máxima
     }
 
     // Update is called once per frame
@@ -57,7 +63,7 @@ public class player : MonoBehaviour
     }
     void Jump()
     {
-        if (Input.GetButtonDown("Jump") )
+        if (Input.GetButtonDown("Jump") && !isBlowing )
         {
             if(!isJumping)
             {
@@ -83,23 +89,9 @@ public class player : MonoBehaviour
             isJumping = false;
         }
 
-        if(collision.gameObject.tag == "Espinho")
-        {
-            if (!isDead)
-            {
-                isDead = true;
-                anim.SetTrigger("dead");
-                StartCoroutine(ShowGameOverAfterDeath());
-            }
-        }
     }
 
-    IEnumerator ShowGameOverAfterDeath()
-    {
-        yield return new WaitForSeconds(2.5f); // Wait for the death animation to finish
-        GameController.instance.ShowGameOver();
-        Destroy(this.gameObject); // Destroy the player after the game over screen is shown
-    }
+    
 
     void OnCollisionExit2D(Collision2D collision) 
     {
@@ -121,5 +113,38 @@ public class player : MonoBehaviour
         
 
         
+    } 
+
+    void OnTriggerStay2D(Collider2D collider) 
+    {
+        if(collider.gameObject.tag == "Fan")
+        {
+            isBlowing = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collider) 
+    {
+        if(collider.gameObject.tag == "Fan")
+        {
+            isBlowing = false;
+        }
+    }
+
+    public void Die()
+    {
+        if (!isDead)
+            {
+                isDead = true;
+                anim.SetTrigger("dead");
+                StartCoroutine(ShowGameOverAfterDeath());
+            }
+    }
+
+    IEnumerator ShowGameOverAfterDeath()
+    {
+        yield return new WaitForSeconds(2.5f); // Wait for the death animation to finish
+        GameController.instance.ShowGameOver();
     }
 }
+
