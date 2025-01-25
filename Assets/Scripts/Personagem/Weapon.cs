@@ -24,6 +24,9 @@ public class Weapon : MonoBehaviour
     [SerializeField] private Slider burstCooldownSlider; // Referência ao slider da rajada
     [SerializeField] private Slider chargedCooldownSlider; // Referência ao slider do especial
 
+    [Header("Animation Settings")]
+    [SerializeField] private Animator playerAnimator; // Referência ao Animator do jogador
+
     private float burstCooldownTimer = 0f; // Temporizador da rajada
     private float chargedCooldownTimer = 0f; // Temporizador do especial
     private float chargeTime;
@@ -66,6 +69,13 @@ public class Weapon : MonoBehaviour
             if (chargeTime >= timeToCharge && !isChargedOnCooldown)
             {
                 Fire(chargedProjectile);
+
+                // Adiciona a animação de ataque ao disparar o chargedProjectile
+                if (playerAnimator != null)
+                {
+                    playerAnimator.SetTrigger("attack"); // Assume que o parâmetro da animação é "Attack"
+                }
+
                 StartCoroutine(StartCooldown(chargedCooldown, isCharged: true));
             }
 

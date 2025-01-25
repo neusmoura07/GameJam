@@ -62,13 +62,23 @@ public class player : MonoBehaviour
 
         if (Input.GetAxis("Horizontal") > 0f)
         {
+            anim.SetBool("walk", true); // Ativa a animação
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
             direction = Vector2.right; // Direção para a direita
+
         }
         else if (Input.GetAxis("Horizontal") < 0f)
         {
+            anim.SetBool("walk", true); // Ativa a animação
             transform.eulerAngles = new Vector3(0f, 180f, 0f);
             direction = Vector2.left; // Direção para a esquerda
+        }
+
+        if (Input.GetAxis("Horizontal") == 0f)
+        {
+            anim.SetBool("walk", false); // Ativa a animação
+            
+
         }
     }
     void Jump()
@@ -79,6 +89,7 @@ public class player : MonoBehaviour
             {
                 rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 doubleJump = true;
+                anim.SetBool("jump", true);
             }
             else
             {
@@ -97,6 +108,7 @@ public class player : MonoBehaviour
         if(collision.gameObject.CompareTag("Chao"))
         {
             isJumping = false;
+            anim.SetBool("jump", false);
         }
 
     }
@@ -108,6 +120,7 @@ public class player : MonoBehaviour
        if(collision.gameObject.CompareTag("Chao"))
         {
             isJumping = true;
+        
         } 
     }
 
@@ -153,7 +166,7 @@ public class player : MonoBehaviour
 
     IEnumerator ShowGameOverAfterDeath()
     {
-        yield return new WaitForSeconds(2.5f); // Wait for the death animation to finish
+        yield return new WaitForSeconds(1f); // Wait for the death animation to finish
         GameController.instance.ShowGameOver();
     }
 }
