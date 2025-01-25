@@ -50,6 +50,13 @@ MonoBehaviour:
   chargedProjectile: {fileID: 6934554234590601065, guid: 1f9bf6d7442f1d74ebf8db7ff2abda27, type: 3}
   timeToCharge: 1
   chargeParticle: {fileID: 804356651317024607}
+  burstCooldown: 0.8
+  chargedCooldown: 2
+  burstCount: 3
+  burstDelay: 0.1
+  burstCooldownSlider: {fileID: 0}
+  chargedCooldownSlider: {fileID: 0}
+  playerAnimator: {fileID: 0}
 --- !u!1 &4130699172283338521
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +140,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 682968858, guid: 3291d586dad13db4abaccae94157016f, type: 3}
+  m_Sprite: {fileID: -3290752139324439965, guid: a9aa614a5778eff46b05e3627792289a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

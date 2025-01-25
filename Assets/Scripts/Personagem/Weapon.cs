@@ -49,7 +49,10 @@ public class Weapon : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && !isBurstOnCooldown && !isFiringBurst)
         {
-            StartCoroutine(FireBurst());
+            if(!PauseMenu.isPaused)
+            {
+                StartCoroutine(FireBurst());
+            }
         }
 
         if (!hasCharge) return;
@@ -150,9 +153,12 @@ public class Weapon : MonoBehaviour
     }
 
     private void Fire(GameObject projectile)
-    {
-        var newProjectile = Instantiate(projectile, transform.position, transform.rotation);
-        int playerDirection = (int)Mathf.Sign(player.Instance.direction.x);
-        newProjectile.GetComponent<Projectile>().SetDirection(playerDirection);
+    {   
+        if(!PauseMenu.isPaused)
+        {
+            var newProjectile = Instantiate(projectile, transform.position, transform.rotation);
+            int playerDirection = (int)Mathf.Sign(player.Instance.direction.x);
+            newProjectile.GetComponent<Projectile>().SetDirection(playerDirection);
+        }
     }
 }
