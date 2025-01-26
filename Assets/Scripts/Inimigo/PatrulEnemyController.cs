@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 public class PatrulEnemyController : MonoBehaviour
 {
     private Rigidbody2D rb;
@@ -10,11 +10,14 @@ public class PatrulEnemyController : MonoBehaviour
     public int maxHealth = 3; // Vida máxima do inimigo
     private int currentHealth;
 
+    private Animator anim;
+
     void Start()
     {
         currentHealth = maxHealth; // Inicializa a vida atual
         pursuingPlayerController = GetComponent<PursuingPlayerController>();
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -70,6 +73,20 @@ public class PatrulEnemyController : MonoBehaviour
     private void Die()
     {
         // Desativa ou destrói o inimigo
-        gameObject.SetActive(false); // Opcional: Substituir por Destroy(gameObject);
+        anim.SetTrigger("dead");
+        StartCoroutine(WaitForDeathAnimation()); // Espera a animação de morte ser concluída
     }
+
+    private IEnumerator WaitForDeathAnimation()
+    {
+        // Obtém a duração da animação de morte a partir do Animator
+        float deathAnimationTime = anim.GetCurrentAnimatorStateInfo(0).length;
+
+        // Aguarda a animação de morte terminar
+        yield return new WaitForSeconds(deathAnimationTime);
+
+        // Após a animação, desativa o inimigo
+        gameObject.SetActive(false);
+    }
+        
 }

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1203526898559426566}
   - component: {fileID: 7351240065388003721}
   - component: {fileID: 1902140981068530558}
-  - component: {fileID: 3550718091675483874}
   - component: {fileID: 222426660888974001}
   - component: {fileID: 4202543843939836326}
+  - component: {fileID: 4511849116363242925}
   m_Layer: 6
   m_Name: Apple_0
   m_TagString: Untagged
@@ -128,28 +128,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.00006906273, y: -0.00000076077316}
   m_Radius: 0.009247043
---- !u!95 &3550718091675483874
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3348237820637612237}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 135bcc59b209ff3409cbcb68b1a89245, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &222426660888974001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +240,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &4511849116363242925
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348237820637612237}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2dfff0100094495478c5ad95c6c94a5c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &4945622017345121779
 PrefabInstance:
   m_ObjectHideFlags: 0
