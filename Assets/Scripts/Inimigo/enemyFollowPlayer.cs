@@ -16,10 +16,13 @@ public class enemyFollowPlayer : MonoBehaviour
     public int maxHealth = 5; // Vida máxima do inimigo
     private int currentHealth;
 
+    private Animator anim;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Personagem").transform;
         currentHealth = maxHealth; // Define a vida inicial como o valor máximo
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -52,7 +55,8 @@ public class enemyFollowPlayer : MonoBehaviour
     // Método para destruir o inimigo
     private void Die()
     {
-        Destroy(gameObject); // Remove o inimigo da cena
+        anim.SetTrigger("dead");
+        StartCoroutine(WaitForDeathAnimation()); // Espera a animação de morte ser concluída
     }
 
     // Desenha as áreas de detecção no editor
@@ -61,5 +65,17 @@ public class enemyFollowPlayer : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, lineOfSite);
         Gizmos.DrawWireSphere(transform.position, shootingRange);
+    }
+
+    private IEnumerator WaitForDeathAnimation()
+    {
+        // Obtém a duração da animação de morte a partir do Animator
+        float deathAnimationTime = anim.GetCurrentAnimatorStateInfo(0).length;
+
+        // Aguarda a animação de morte terminar
+        yield return new WaitForSeconds(deathAnimationTime);
+
+        // Após a animação, desativa o inimigo
+        gameObject.SetActive(false);
     }
 }
