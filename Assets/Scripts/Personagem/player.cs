@@ -46,6 +46,7 @@ public class player : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         direction = Vector2.right; // Direção inicial
+        isDead = false;
 
         // Configuração do AudioSource
         audioSource = GetComponent<AudioSource>();

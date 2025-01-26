@@ -35,6 +35,17 @@ public class Weapon : MonoBehaviour
     private bool isBurstOnCooldown = false;
     private bool isChargedOnCooldown = false;
 
+    void Start()
+    {
+        ResetWeapon();
+
+        // Certifique-se de que partículas de carregamento estão paradas
+        if (chargeParticle != null && chargeParticle.isPlaying)
+        {
+            chargeParticle.Stop();
+        }
+    }
+
     void Update()
     {
         if (!player.Instance.isDead)
@@ -44,6 +55,8 @@ public class Weapon : MonoBehaviour
 
         UpdateCooldownUI();
     }
+
+    
 
     private void HandleShooting()
     {
@@ -154,11 +167,35 @@ public class Weapon : MonoBehaviour
 
     private void Fire(GameObject projectile)
     {   
+
+        if (projectile == null)
+        {
+            Debug.LogError("Projectile está nulo!");
+            return;
+        }
+
         if(!PauseMenu.isPaused)
         {
             var newProjectile = Instantiate(projectile, transform.position, transform.rotation);
             int playerDirection = (int)Mathf.Sign(player.Instance.direction.x);
             newProjectile.GetComponent<Projectile>().SetDirection(playerDirection);
+        }
+    }
+
+    public void ResetWeapon()
+    {
+        burstCooldownTimer = 0f;
+        chargedCooldownTimer = 0f;
+        chargeTime = 0f;
+
+        isBurstOnCooldown = false;
+        isChargedOnCooldown = false;
+        isFiringBurst = false;
+
+        // Garanta que a partícula está parada ao reiniciar
+        if (chargeParticle != null && chargeParticle.isPlaying)
+        {
+            chargeParticle.Stop();
         }
     }
 }

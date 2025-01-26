@@ -29,4 +29,16 @@ public class MenuPrincipalManager : MonoBehaviour
         Application.Quit();
         Debug.Log("Sair do Jogo");
     }
+
+    public void VoltarMenuPrincipal()
+    {
+        SceneManager.LoadScene("MenuPrincipal");
+        Time.timeScale = 1f; // Certifique-se de que o tempo está rodando normalmente
+
+        // Reset de estados manuais (se necessário)
+        if (player.Instance != null)
+        {
+            Destroy(player.Instance.gameObject); // Garantir que o jogador será recriado
+        }
+    }
 }

@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
     public void ShowGameOver()
     {
         gameOver.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public void RestartGame(string lvlname)
@@ -24,6 +25,7 @@ public class GameController : MonoBehaviour
         {
             BackgroundMusic.Instance.ResumeMusic();
         }
+        Time.timeScale = 1f;
 
         // Recarregar a cena
         SceneManager.LoadScene(lvlname);

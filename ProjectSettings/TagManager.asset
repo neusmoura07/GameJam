@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - Vida
   - Bala
+  - EnemyPlant
   layers:
   - Default
   - TransparentFX
