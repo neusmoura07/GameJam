@@ -70,6 +70,16 @@ public class LifeController : MonoBehaviour
         
     }
 
+    public void DropVidasFull()
+    {
+        if(Life > 0)
+        {
+            Life = Life - 5;
+        }
+        LifeControl();
+        
+    }
+
     public void AddVida()
     {
         if(Life < TotalLife)
