@@ -20,13 +20,13 @@ public class ScoreControl : MonoBehaviour
         scoreText.text = totalScore.ToString(); // Atualiza o texto do score
 
         // Verifica e destrói o objeto se o score for maior ou igual a 3
-        if (totalScore >= 3 && objetodestruido != null)
+        if (totalScore == 12 && objetodestruido != null)
         {
             Destroy(objetodestruido);
         }
 
         // Verifica se o score ultrapassou 5
-        if (totalScore > 5)
+        if (totalScore == 15)
         {
             ActivateWinScreen();
         }
