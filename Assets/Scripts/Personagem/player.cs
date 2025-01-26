@@ -25,6 +25,11 @@ public class player : MonoBehaviour
     private bool tiro;
     public float forcaDoTiro;
 
+    // Novos campos para áudio
+    public AudioClip deathSound; // Som de morte
+    private AudioSource audioSource;
+    
+
     void Awake()
     {
         // Implementação do Singleton
@@ -41,6 +46,13 @@ public class player : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         direction = Vector2.right; // Direção inicial
+
+        // Configuração do AudioSource
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
     void Update()
@@ -160,6 +172,19 @@ public class player : MonoBehaviour
             {
                 isDead = true;
                 anim.SetTrigger("dead");
+
+                // Pausar a música de fundo
+                if (BackgroundMusic.Instance != null)
+                {
+                    BackgroundMusic.Instance.PauseMusic();
+                }
+
+                // Tocar o som de morte
+                if (deathSound != null)
+                {
+                    audioSource.PlayOneShot(deathSound);
+                }
+
                 StartCoroutine(ShowGameOverAfterDeath());
             }
     }

@@ -8,12 +8,25 @@ public class coleta : MonoBehaviour
 
     public int score;
 
+    // Campo para o áudio de coleta
+    public AudioClip collectSound;  // O áudio que será tocado
+    private AudioSource audioSource; // Referência para o AudioSource
+
     
     
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         circle = GetComponent<CircleCollider2D>();
+
+        // Verifica se o AudioSource já está presente no objeto
+        audioSource = GetComponent<AudioSource>();
+
+        // Caso não tenha, adiciona um novo AudioSource ao objeto
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
 
@@ -21,6 +34,13 @@ public class coleta : MonoBehaviour
     {
         if (collider.gameObject.tag == "Personagem")
         {
+
+            // Toca o som de coleta se o AudioClip foi atribuído
+            if (collectSound != null)
+            {
+                audioSource.PlayOneShot(collectSound);  // Toca o som uma vez
+            }
+            
             sr.enabled = false;
             circle.enabled = false;
             collected.SetActive(true);

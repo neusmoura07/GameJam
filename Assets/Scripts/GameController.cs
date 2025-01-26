@@ -19,6 +19,13 @@ public class GameController : MonoBehaviour
 
     public void RestartGame(string lvlname)
     {
+        // Retomar a música de fundo
+        if (BackgroundMusic.Instance != null)
+        {
+            BackgroundMusic.Instance.ResumeMusic();
+        }
+
+        // Recarregar a cena
         SceneManager.LoadScene(lvlname);
     }
 }
