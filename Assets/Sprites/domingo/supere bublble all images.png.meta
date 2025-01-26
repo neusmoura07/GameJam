@@ -1,0 +1,3067 @@
+fileFormatVersion: 2
+guid: e3f8f840707263a4d89072e8731d8692
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3979714100795480615
+    second: supere bublble all images_0
+  - first:
+      213: -5600600486105058315
+    second: supere bublble all images_1
+  - first:
+      213: 6324733523837315873
+    second: supere bublble all images_2
+  - first:
+      213: 3470411270145058846
+    second: supere bublble all images_3
+  - first:
+      213: -9190093086945897029
+    second: supere bublble all images_4
+  - first:
+      213: 704236355287882869
+    second: supere bublble all images_5
+  - first:
+      213: -7087884103445102938
+    second: supere bublble all images_6
+  - first:
+      213: 3626997269336808218
+    second: supere bublble all images_7
+  - first:
+      213: -4399635334731581203
+    second: supere bublble all images_8
+  - first:
+      213: -4537081207523332544
+    second: supere bublble all images_9
+  - first:
+      213: 6395642487434648969
+    second: supere bublble all images_10
+  - first:
+      213: 6486634446157937276
+    second: supere bublble all images_11
+  - first:
+      213: -7778921657008891305
+    second: supere bublble all images_12
+  - first:
+      213: -5501631712987540093
+    second: supere bublble all images_13
+  - first:
+      213: -7564134660646665165
+    second: supere bublble all images_14
+  - first:
+      213: -5009190558752875427
+    second: supere bublble all images_15
+  - first:
+      213: -2488392921521715533
+    second: supere bublble all images_16
+  - first:
+      213: -9199371539374936098
+    second: supere bublble all images_17
+  - first:
+      213: 7999181935862059808
+    second: supere bublble all images_18
+  - first:
+      213: -4390966846786304115
+    second: supere bublble all images_19
+  - first:
+      213: -4836703464553745630
+    second: supere bublble all images_20
+  - first:
+      213: 4911794145625015156
+    second: supere bublble all images_21
+  - first:
+      213: 3739795081605125384
+    second: supere bublble all images_22
+  - first:
+      213: 7098866613567140583
+    second: supere bublble all images_23
+  - first:
+      213: -2147405736205260703
+    second: supere bublble all images_24
+  - first:
+      213: 2026996426065656216
+    second: supere bublble all images_25
+  - first:
+      213: -5374184463133355124
+    second: supere bublble all images_26
+  - first:
+      213: -5657023810196222972
+    second: supere bublble all images_27
+  - first:
+      213: 116709409637219829
+    second: supere bublble all images_28
+  - first:
+      213: -6791683241106197005
+    second: supere bublble all images_29
+  - first:
+      213: -3691908717248086875
+    second: supere bublble all images_30
+  - first:
+      213: 3026715864139638540
+    second: supere bublble all images_31
+  - first:
+      213: 8067203364731167945
+    second: supere bublble all images_32
+  - first:
+      213: 4159213260821847866
+    second: supere bublble all images_33
+  - first:
+      213: -1786931651348819514
+    second: supere bublble all images_34
+  - first:
+      213: 2551287101185550261
+    second: supere bublble all images_35
+  - first:
+      213: 4726680744315812002
+    second: supere bublble all images_36
+  - first:
+      213: -6044717409335551405
+    second: supere bublble all images_37
+  - first:
+      213: -8799855586417596041
+    second: supere bublble all images_38
+  - first:
+      213: 6185210350319204076
+    second: supere bublble all images_39
+  - first:
+      213: 4493910709173112682
+    second: supere bublble all images_40
+  - first:
+      213: 4905815773314129593
+    second: supere bublble all images_41
+  - first:
+      213: 135527143761589565
+    second: supere bublble all images_42
+  - first:
+      213: 3564995976285618574
+    second: supere bublble all images_43
+  - first:
+      213: -1413876662822587933
+    second: supere bublble all images_44
+  - first:
+      213: -7875195187298900172
+    second: supere bublble all images_45
+  - first:
+      213: -7426652488411257881
+    second: supere bublble all images_46
+  - first:
+      213: 5508032891788868311
+    second: supere bublble all images_47
+  - first:
+      213: -7811676025064488159
+    second: supere bublble all images_48
+  - first:
+      213: 69767421249885543
+    second: supere bublble all images_49
+  - first:
+      213: -8169968940163943705
+    second: supere bublble all images_50
+  - first:
+      213: -2921264198814059002
+    second: supere bublble all images_51
+  - first:
+      213: 665912416512214881
+    second: supere bublble all images_52
+  - first:
+      213: -5354410895021767907
+    second: supere bublble all images_53
+  - first:
+      213: 1361146571456808566
+    second: supere bublble all images_54
+  - first:
+      213: -2118912215580553096
+    second: supere bublble all images_55
+  - first:
+      213: -6604643857149057519
+    second: supere bublble all images_56
+  - first:
+      213: 5083319951854752810
+    second: supere bublble all images_57
+  - first:
+      213: 9161905684570473512
+    second: supere bublble all images_58
+  - first:
+      213: -1175259877015117324
+    second: supere bublble all images_59
+  - first:
+      213: -4992722330472567372
+    second: supere bublble all images_60
+  - first:
+      213: -7689269838114583502
+    second: supere bublble all images_61
+  - first:
+      213: -787334215369793747
+    second: supere bublble all images_62
+  - first:
+      213: -8975078340500258179
+    second: supere bublble all images_63
+  - first:
+      213: 6322860451646462750
+    second: supere bublble all images_64
+  - first:
+      213: -970995045254419794
+    second: supere bublble all images_65
+  - first:
+      213: -6792417373241327272
+    second: supere bublble all images_66
+  - first:
+      213: 7824234327428637101
+    second: supere bublble all images_67
+  - first:
+      213: 2707123955467014284
+    second: supere bublble all images_68
+  - first:
+      213: 8972268850328176677
+    second: supere bublble all images_69
+  - first:
+      213: -5127833610831671625
+    second: supere bublble all images_70
+  - first:
+      213: 5080602969697966215
+    second: supere bublble all images_71
+  - first:
+      213: 1613443524095508336
+    second: supere bublble all images_72
+  - first:
+      213: 7240931237402353782
+    second: supere bublble all images_73
+  - first:
+      213: 6249015953810781055
+    second: supere bublble all images_74
+  - first:
+      213: -3394599993637772075
+    second: supere bublble all images_75
+  - first:
+      213: -5157302076651727187
+    second: supere bublble all images_76
+  - first:
+      213: 5799573063549056845
+    second: supere bublble all images_77
+  - first:
+      213: -4877232760074217497
+    second: supere bublble all images_78
+  - first:
+      213: 7284646339552021850
+    second: supere bublble all images_79
+  - first:
+      213: 455429303101563082
+    second: supere bublble all images_80
+  - first:
+      213: -3503917542812865638
+    second: supere bublble all images_81
+  - first:
+      213: 4945256402765205462
+    second: supere bublble all images_82
+  - first:
+      213: 7542208863771284630
+    second: supere bublble all images_83
+  - first:
+      213: -6467426315414575318
+    second: supere bublble all images_84
+  - first:
+      213: 6100403787855037380
+    second: supere bublble all images_85
+  - first:
+      213: -3718142697012945203
+    second: supere bublble all images_86
+  - first:
+      213: 8945676458332379118
+    second: supere bublble all images_87
+  - first:
+      213: -3613254024876417888
+    second: supere bublble all images_88
+  - first:
+      213: 7837933941765629352
+    second: supere bublble all images_89
+  - first:
+      213: -1295810926281999043
+    second: supere bublble all images_90
+  - first:
+      213: 354746121031143392
+    second: supere bublble all images_91
+  - first:
+      213: -5355280375296837381
+    second: supere bublble all images_92
+  - first:
+      213: 6298802909345359717
+    second: supere bublble all images_93
+  - first:
+      213: 2404878567822835012
+    second: supere bublble all images_94
+  - first:
+      213: 583718997834669863
+    second: supere bublble all images_95
+  - first:
+      213: -5775347553276781667
+    second: supere bublble all images_96
+  - first:
+      213: 3894586575764629657
+    second: supere bublble all images_97
+  - first:
+      213: 7040121236874645656
+    second: supere bublble all images_98
+  - first:
+      213: -915374612662443845
+    second: supere bublble all images_99
+  - first:
+      213: -7275477531620102078
+    second: supere bublble all images_100
+  - first:
+      213: -2269246189375604369
+    second: supere bublble all images_101
+  - first:
+      213: 3302151963723361583
+    second: supere bublble all images_102
+  - first:
+      213: 9208878076335932105
+    second: supere bublble all images_103
+  - first:
+      213: -1977714184659447920
+    second: supere bublble all images_104
+  - first:
+      213: 71891634953735387
+    second: supere bublble all images_105
+  - first:
+      213: -5939408556598970998
+    second: supere bublble all images_106
+  - first:
+      213: -5062851489701044497
+    second: supere bublble all images_107
+  - first:
+      213: -8412980167841089676
+    second: supere bublble all images_108
+  - first:
+      213: 2306911338016997350
+    second: supere bublble all images_109
+  - first:
+      213: -3028257930356102676
+    second: supere bublble all images_110
+  - first:
+      213: -8011363110515584719
+    second: supere bublble all images_111
+  - first:
+      213: 8162110067029509617
+    second: supere bublble all images_112
+  - first:
+      213: -814971791590286603
+    second: supere bublble all images_113
+  - first:
+      213: 958591422513094393
+    second: supere bublble all images_114
+  - first:
+      213: 5584038010039822249
+    second: supere bublble all images_115
+  - first:
+      213: 7164609854898881244
+    second: supere bublble all images_116
+  - first:
+      213: -7465871061642717118
+    second: supere bublble all images_117
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: supere bublble all images_0
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 11691
+        width: 2492
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5e87a5c1735c8c0800000000000000
+      internalID: -3979714100795480615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 9755
+        width: 3021
+        height: 1634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3f3d8f78ba642b0800000000000000
+      internalID: -5600600486105058315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 7979
+        width: 2491
+        height: 1397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12be35b41a7f5c750800000000000000
+      internalID: 6324733523837315873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 6378
+        width: 2549
+        height: 1435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e182285c9a0692030800000000000000
+      internalID: 3470411270145058846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_4
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 5731
+        width: 365
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb511d3570b367080800000000000000
+      internalID: -9190093086945897029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_5
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 5731
+        width: 305
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c99d2eb33f5c900800000000000000
+      internalID: 704236355287882869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_6
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 5735
+        width: 259
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae340d06f6c2ad90800000000000000
+      internalID: -7087884103445102938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_7
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 5731
+        width: 237
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bd120cccea55230800000000000000
+      internalID: 3626997269336808218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_8
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 5731
+        width: 221
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8311c29fa51f2c0800000000000000
+      internalID: -4399635334731581203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_9
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 5731
+        width: 236
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ea8742eac0901c0800000000000000
+      internalID: -4537081207523332544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_10
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 5731
+        width: 259
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d10fde4f2e1c850800000000000000
+      internalID: 6395642487434648969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_11
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 5731
+        width: 305
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a7e0f39a7250a50800000000000000
+      internalID: 6486634446157937276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_12
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 5731
+        width: 365
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a546aa7f7bb0490800000000000000
+      internalID: -7778921657008891305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_13
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 5643
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3859a5e1b1746a3b0800000000000000
+      internalID: -5501631712987540093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_14
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 5643
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3348fe64a9bc60790800000000000000
+      internalID: -7564134660646665165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_15
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 5645
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c5b450ab7cb7ab0800000000000000
+      internalID: -5009190558752875427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_16
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 5643
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b60a1b62d3777dd0800000000000000
+      internalID: -2488392921521715533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_17
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 5641
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfe7b64354455080800000000000000
+      internalID: -9199371539374936098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_18
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 5641
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02397c4d69dc20f60800000000000000
+      internalID: 7999181935862059808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_19
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 5643
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8709cccae62013c0800000000000000
+      internalID: -4390966846786304115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_20
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 5641
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2237f5f23d390ecb0800000000000000
+      internalID: -4836703464553745630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_21
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 5641
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47382db60c23a2440800000000000000
+      internalID: 4911794145625015156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_22
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 4864
+        width: 366
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80593dbffcb66e330800000000000000
+      internalID: 3739795081605125384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_23
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 4838
+        width: 444
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2bc89d29d348260800000000000000
+      internalID: 7098866613567140583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_24
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 4773
+        width: 611
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16869d04cd1e232e0800000000000000
+      internalID: -2147405736205260703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_25
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 4773
+        width: 610
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89931a09286512c10800000000000000
+      internalID: 2026996426065656216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_26
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 4716
+        width: 705
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83538554bf0b65b0800000000000000
+      internalID: -5374184463133355124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_27
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 4073
+        width: 365
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cc35b11d63e71b0800000000000000
+      internalID: -5657023810196222972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_28
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 4073
+        width: 305
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd3f57f692ae9100800000000000000
+      internalID: 116709409637219829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_29
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 4077
+        width: 259
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f534ea73181fb1a0800000000000000
+      internalID: -6791683241106197005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_30
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 4073
+        width: 237
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac724d0594b3ccc0800000000000000
+      internalID: -3691908717248086875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_31
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 4073
+        width: 221
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07251eca0e010a20800000000000000
+      internalID: 3026715864139638540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_32
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 4073
+        width: 236
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c423a5e7b674ff60800000000000000
+      internalID: 8067203364731167945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_33
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 4073
+        width: 259
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f516c9c6e78b930800000000000000
+      internalID: 4159213260821847866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_34
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 4073
+        width: 305
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c19373712b8337e0800000000000000
+      internalID: -1786931651348819514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_35
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 4073
+        width: 365
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7633ae91ef76320800000000000000
+      internalID: 2551287101185550261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_36
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 3984
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a87f9b081b889140800000000000000
+      internalID: 4726680744315812002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_37
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 3984
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a5fe0ea89dc1ca0800000000000000
+      internalID: -6044717409335551405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_38
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 3987
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779a7d0c7f1a0e580800000000000000
+      internalID: -8799855586417596041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_39
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 3984
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce678dffa0846d550800000000000000
+      internalID: 6185210350319204076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_40
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 3983
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f4690faf39d5e30800000000000000
+      internalID: 4493910709173112682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_41
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 3983
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be95e52475f41440800000000000000
+      internalID: 4905815773314129593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_42
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 3984
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35355d183d71e100800000000000000
+      internalID: 135527143761589565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_43
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 3983
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e818338c3f8697130800000000000000
+      internalID: 3564995976285618574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_44
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 3983
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1be3c8aa6e06ce0800000000000000
+      internalID: -1413876662822587933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_45
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 3205
+        width: 367
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437ee24a3bfa5b290800000000000000
+      internalID: -7875195187298900172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_46
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 3180
+        width: 444
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3e9fde8ea3fe890800000000000000
+      internalID: -7426652488411257881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_47
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 3115
+        width: 611
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da3e367bb6707c40800000000000000
+      internalID: 5508032891788868311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_48
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 3115
+        width: 611
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12388911b0a579390800000000000000
+      internalID: -7811676025064488159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_49
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 3074
+        width: 703
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7659e78991dd7f000800000000000000
+      internalID: 69767421249885543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_50
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2513
+        width: 120
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2bd8709807e9e80800000000000000
+      internalID: -8169968940163943705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_51
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2486
+        width: 170
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6063f9e40b59577d0800000000000000
+      internalID: -2921264198814059002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_52
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2447
+        width: 209
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1678bbd80dbcd3900800000000000000
+      internalID: 665912416512214881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_53
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 2343
+        width: 1221
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d130fbce8af41b5b0800000000000000
+      internalID: -5354410895021767907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_54
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 2353
+        width: 1043
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6768ce65893c3e210800000000000000
+      internalID: 1361146571456808566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_55
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1653
+        width: 265
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870d510019c1892e0800000000000000
+      internalID: -2118912215580553096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_56
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1572
+        width: 511
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1162aa2a7679754a0800000000000000
+      internalID: -6604643857149057519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_57
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1629
+        width: 496
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2455f940949b8640800000000000000
+      internalID: 5083319951854752810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_58
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1677
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8248472ada0a52f70800000000000000
+      internalID: 9161905684570473512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_59
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1681
+        width: 152
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1aebf5e53a0bfe0800000000000000
+      internalID: -1175259877015117324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_60
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 1622
+        width: 286
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bda5063e7946bab0800000000000000
+      internalID: -4992722330472567372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_61
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 1712
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c0e0d52d93a4590800000000000000
+      internalID: -7689269838114583502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_62
+      rect:
+        serializedVersion: 2
+        x: 3418
+        y: 1712
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f5f5dd3b3d215f0800000000000000
+      internalID: -787334215369793747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_63
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1006
+        width: 318
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d720e232dcd127380800000000000000
+      internalID: -8975078340500258179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_64
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1006
+        width: 343
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bd0c0b4105fb750800000000000000
+      internalID: 6322860451646462750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_65
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1006
+        width: 376
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa22f0a6255682f0800000000000000
+      internalID: -970995045254419794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_66
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1008
+        width: 299
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85142c5036c7cb1a0800000000000000
+      internalID: -6792417373241327272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_67
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1008
+        width: 330
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da12dcd8aa3459c60800000000000000
+      internalID: 7824234327428637101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_68
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 1006
+        width: 323
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80df8005e2a19520800000000000000
+      internalID: 2707123955467014284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_69
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 1006
+        width: 322
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5280d157bf6e38c70800000000000000
+      internalID: 8972268850328176677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_70
+      rect:
+        serializedVersion: 2
+        x: 3041
+        y: 1006
+        width: 323
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bec117df7646d8b0800000000000000
+      internalID: -5127833610831671625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_71
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 934
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78854a59b7de18640800000000000000
+      internalID: 5080602969697966215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_72
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 874
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ffdd6365a146610800000000000000
+      internalID: 1613443524095508336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_73
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 874
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670a568a894fc7460800000000000000
+      internalID: 7240931237402353782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_74
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 882
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73f3aab6e6f8b650800000000000000
+      internalID: 6249015953810781055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_75
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 934
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d46da88a45f3e0d0800000000000000
+      internalID: -3394599993637772075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_76
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 883
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da61ac9f5159d68b0800000000000000
+      internalID: -5157302076651727187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_77
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 882
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47f3cd49f83c7050800000000000000
+      internalID: 5799573063549056845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_78
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 883
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7d0e835a6905cb0800000000000000
+      internalID: -4877232760074217497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_79
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 883
+        width: 10
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d09570043481560800000000000000
+      internalID: 7284646339552021850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_80
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 883
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac02ca7c982025600800000000000000
+      internalID: 455429303101563082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_81
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 865
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b21623f859f5fc0800000000000000
+      internalID: -3503917542812865638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_82
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 873
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfcb0a4f7411a440800000000000000
+      internalID: 4945256402765205462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_83
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 873
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694d3e2500f4ba860800000000000000
+      internalID: 7542208863771284630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_84
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 873
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2763b238061f36a0800000000000000
+      internalID: -6467426315414575318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_85
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 882
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c30c897cecf8a450800000000000000
+      internalID: 6100403787855037380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_86
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 882
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce9458aae0866cc0800000000000000
+      internalID: -3718142697012945203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_87
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 866
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7d976b75d652c70800000000000000
+      internalID: 8945676458332379118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_88
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 883
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac9df3bb942bddc0800000000000000
+      internalID: -3613254024876417888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_89
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 882
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5eae3946fe5cc60800000000000000
+      internalID: 7837933941765629352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_90
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 883
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d34eaf3da540ee0800000000000000
+      internalID: -1295810926281999043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_91
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 883
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef4281b7bf4ce400800000000000000
+      internalID: 354746121031143392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_92
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 883
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8bfc54fd83ea5b0800000000000000
+      internalID: -5355280375296837381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_93
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 865
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5672ab1afd7d96750800000000000000
+      internalID: 6298802909345359717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 280
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44db70bd058df5120800000000000000
+      internalID: 2404878567822835012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_95
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 111
+        width: 282
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f159af559c91800800000000000000
+      internalID: 583718997834669863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_96
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 111
+        width: 282
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b1488dff7d9dfa0800000000000000
+      internalID: -5775347553276781667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_97
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 111
+        width: 282
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998a4733bd95c0630800000000000000
+      internalID: 3894586575764629657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_98
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 111
+        width: 276
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890d89bf6f883b160800000000000000
+      internalID: 7040121236874645656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_99
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 111
+        width: 273
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb028dfb3afeb43f0800000000000000
+      internalID: -915374612662443845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_100
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 111
+        width: 300
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240b27c6bbf480b90800000000000000
+      internalID: -7275477531620102078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_101
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 110
+        width: 300
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69bb5e1d940280e0800000000000000
+      internalID: -2269246189375604369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_102
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 110
+        width: 324
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2de61827b993dd20800000000000000
+      internalID: 3302151963723361583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_103
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 110
+        width: 355
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2c2e7d1d18ccf70800000000000000
+      internalID: 9208878076335932105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_104
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 110
+        width: 349
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f4f1c6d6fbd84e0800000000000000
+      internalID: -1977714184659447920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_105
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 0
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc4db3af096ff000800000000000000
+      internalID: 71891634953735387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_106
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 0
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85b008d26bf29da0800000000000000
+      internalID: -5939408556598970998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_107
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 0
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feedfcde4632db9b0800000000000000
+      internalID: -5062851489701044497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_108
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 0
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477fc697c171f3b80800000000000000
+      internalID: -8412980167841089676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_109
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 0
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eff2dea3abc30020800000000000000
+      internalID: 2306911338016997350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_110
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 0
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce96ddce47779f5d0800000000000000
+      internalID: -3028257930356102676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_111
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 0
+        width: 10
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131dc0f62bbe1d090800000000000000
+      internalID: -8011363110515584719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_112
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 0
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f50fea7cd3a54170800000000000000
+      internalID: 8162110067029509617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_113
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 0
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa1c443973a0b4f0800000000000000
+      internalID: -814971791590286603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_114
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 0
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe11a7e1d99d4d00800000000000000
+      internalID: 958591422513094393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_115
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 0
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7e3b01cfc7e7d40800000000000000
+      internalID: 5584038010039822249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_116
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 0
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2c28b04becd6360800000000000000
+      internalID: 7164609854898881244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supere bublble all images_117
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248dae743d5e36890800000000000000
+      internalID: -7465871061642717118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
