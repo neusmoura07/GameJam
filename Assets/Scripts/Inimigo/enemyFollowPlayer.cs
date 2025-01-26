@@ -51,6 +51,7 @@ public class enemyFollowPlayer : MonoBehaviour
             Die(); // Chama o método Die() ao atingir 0 de vida
         }
     }
+    
 
     // Método para destruir o inimigo
     private void Die()

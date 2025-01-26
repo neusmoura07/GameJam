@@ -1065,7 +1065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c621b58ad8856b9459d191357ea8704f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomedoLevelDeJogo: Testes
+  nomedoLevelDeJogo: Jogo
   painelMenuInicial: {fileID: 1389525836}
   painelOptions: {fileID: 0}
 --- !u!4 &2001002049
