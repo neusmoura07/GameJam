@@ -3,7 +3,7 @@ using System.Collections;
 public class PatrulEnemyController : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private float speed = 4;
+    public float speed = 4;
 
     private PursuingPlayerController pursuingPlayerController;
 

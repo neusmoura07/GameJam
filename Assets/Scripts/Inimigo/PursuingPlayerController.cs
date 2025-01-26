@@ -3,7 +3,7 @@ using UnityEngine;
 public class PursuingPlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public float speed = 10;
+    public float speed;
     private Transform transformPlayer;
     public float detectionRadius = 5f;
     private bool facingRight = true;
@@ -56,7 +56,7 @@ public class PursuingPlayerController : MonoBehaviour
     private void FollowPLayer()
     {
         Vector2 direction = (transformPlayer.position - transform.position).normalized;
-        rb.linearVelocity = new Vector2(direction.x * speed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(direction.x * (speed + 2), rb.linearVelocity.y);
         PositionCorrection();
     }
 
