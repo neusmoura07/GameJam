@@ -14,4 +14,9 @@ public class HideAfterSeconds : MonoBehaviour
     {
         gameObject.SetActive(false); // Desativa o painel
     }
+
+    public void FecharPanel()
+    {
+        gameObject.SetActive(false); // Desativa o painel
+    }
 }
