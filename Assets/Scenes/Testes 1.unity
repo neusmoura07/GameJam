@@ -595,6 +595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalScore: 0
   scoreText: {fileID: 1605944125}
+  objetodestruido: {fileID: 0}
 --- !u!1 &466634063
 GameObject:
   m_ObjectHideFlags: 0

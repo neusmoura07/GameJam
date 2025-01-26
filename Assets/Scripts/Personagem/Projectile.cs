@@ -35,6 +35,7 @@ public class Projectile : MonoBehaviour
         // Verifica se colidiu com um inimigo
         var enemy = collision.collider.GetComponent<PatrulEnemyController>();
         var pursuingEnemy = collision.collider.GetComponent<PursuingPlayerController>();
+        var bossenemy = collision.collider.GetComponent<enemyFollowPlayer>();
 
         if (enemy != null)
         {
@@ -46,6 +47,13 @@ public class Projectile : MonoBehaviour
         {
             // Aplica dano ao inimigo perseguidor
             pursuingEnemy.TakeDamage(projectileDamage);
+            Destroy(gameObject); // Destroi o projétil após o impacto
+        }
+
+        else if (bossenemy != null)
+        {
+            // Aplica dano ao inimigo perseguidor
+            bossenemy.TakeDamage(projectileDamage);
             Destroy(gameObject); // Destroi o projétil após o impacto
         }
     }
