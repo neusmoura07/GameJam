@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jogo.unity
     guid: bf2beeddc8680d84fafdca1658784038
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Testes.unity
     guid: 721e2b34330feac47b7479cdf5ce64cb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Testes 1.unity
     guid: 832f17c2520afc145a56a2549385a117
   m_configObjects:
