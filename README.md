@@ -1,6 +1,6 @@
-# 🎮 [Super Bubble]
+# 🎮 Super Bubble
 
-### 🏆 Um projeto da Global Game Jam ([ANO DA JAM])
+### 🏆 Um projeto da Global Game Jam 2025
 ### ⏱️ Tema: "Bolhas" | ⌛ Tempo de Desenvolvimento: 72 Horas
 
 > Este jogo foi criado em apenas 72 horas como parte da Global Game Jam, um evento mundial de criação de jogos. O tema sorteado foi **"Bolhas"**.
